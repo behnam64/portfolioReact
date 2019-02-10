@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import AppHeader from "./../components/AppHeader";
-import About from "../components/About";
+import AppMain from "../components/AppMain";
 
 export default class Home extends Component {
   render() {
     return (
       <div class="natour">
         <AppHeader />
-        <About />
+        <AppMain />
       </div>
     );
   }

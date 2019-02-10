@@ -1,5 +1,27 @@
-.u-center-text {text-align: center}
+@import "./variables";
 
-.u-margin-bottom-small {margin-bottom: 1.5em}
-.u-margin-bottom-medium {margin-bottom: 4em}
-.u-margin-bottom-big {margin-bottom: 8em}
+.u-center-text {
+  text-align: center
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5em
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4em
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8em
+}
+
+.u-text-gradient {
+  @supports (background-clip: text) {
+    background-image: linear-gradient(to right,
+      $color-primary-light,
+      $color-primary-dark);
+    background-clip: text;
+    color: transparent;
+  }
+}

@@ -1,11 +1,12 @@
 import React from "react";
 import About from "./About";
-import "appMain.scss";
+import Features from "./Features";
 
 export default function appMain(props) {
   return(
     <main className="app-main">
-      <About/>
+      <About />
+      <Features />
     </main>
   );
 }

@@ -9,7 +9,7 @@ export default function about(props) {
     <section className="section-about">
 
       <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">
+        <h2 className="heading-secondary u-text-gradient">
           Exciting tours for adventurous people
         </h2>
       </div>

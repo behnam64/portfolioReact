@@ -35,13 +35,6 @@
   display: inline-block;
   color: $color-primary;
   transition: transform 0.2s;
-  @supports (background-clip: text){
-    background-image: linear-gradient(to right,
-    $color-primary-light,
-    $color-primary-dark);
-    background-clip: text;
-    color: transparent;
-  }
   &:hover{
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: (.5em / 3.5) (1em / 3.5) (2em / 3.5) rgba($color-black, 0.2);
