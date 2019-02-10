@@ -1,0 +1,17 @@
+@import "./variables";
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin grid($cols) {
+  @for $i from 1 through $cols {
+    .col-#{$i}-of-#{$cols} {
+      width: (100% * ($i / $cols));
+      float: left;
+    }
+  }
+}
