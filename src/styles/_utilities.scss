@@ -5,15 +5,15 @@
 }
 
 .u-margin-bottom-small {
-  margin-bottom: 1.5em
+  margin-bottom: 1.5rem
 }
 
 .u-margin-bottom-medium {
-  margin-bottom: 4em
+  margin-bottom: 4rem
 }
 
 .u-margin-bottom-big {
-  margin-bottom: 8em
+  margin-bottom: 8rem
 }
 
 .u-text-gradient {
@@ -24,4 +24,11 @@
     background-clip: text;
     color: transparent;
   }
+}
+
+.u-margin-top-big {
+  margin-top: 8rem;
+}
+.u-margin-top-huge {
+  margin-top: 10rem;
 }

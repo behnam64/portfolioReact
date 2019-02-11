@@ -1,5 +1,14 @@
-@import "./styles/variables";
+@import "./styles/animations";
+@import "./styles/buttons";
+@import "./styles/card";
+@import "./styles/compostion";
+@import "./styles/feature-box";
+@import "./styles/grid";
 @import "./styles/icon-font";
+@import "./styles/mixins";
+@import "./styles/typography";
+@import "./styles/utilities";
+@import "./styles/variables";
 
 *,
 *::after,
@@ -7,7 +16,6 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  font-size: inherit;
 }
 
 html {
@@ -19,6 +27,6 @@ body{
   font-weight: 400;
   line-height: 1.7;
   color: $color-gray-dark;
-  padding: 3em;
+  padding: 3rem;
   box-sizing: border-box;
 }
