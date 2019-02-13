@@ -6,7 +6,7 @@ export default function tours(props) {
     <section className="section-tours">
 
       <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary u-text-gradient">
+        <h2 className="heading-secondary text-gradient">
           Most popular tours
         </h2>
       </div>

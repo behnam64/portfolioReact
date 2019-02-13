@@ -16,16 +16,6 @@
   margin-bottom: 8rem
 }
 
-.u-text-gradient {
-  @supports (background-clip: text) {
-    background-image: linear-gradient(to right,
-      $color-primary-light,
-      $color-primary-dark);
-    background-clip: text;
-    color: transparent;
-  }
-}
-
 .u-margin-top-big {
   margin-top: 8rem;
 }
