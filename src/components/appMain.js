@@ -9,8 +9,8 @@ export default function appMain(props) {
     <main className="app-main">
       <About />
       <Features />
-      <Tours />
-      <Stories />
+      <Tours tours={props.tours}/>
+      <Stories stories={props.stories}/>
     </main>
   );
 }
