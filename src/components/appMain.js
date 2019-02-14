@@ -3,6 +3,7 @@ import About from "./About";
 import Features from "./Features";
 import Tours from "./Tours";
 import Stories from "./Stories";
+import Booking from "./Booking";
 
 export default function appMain(props) {
   return(
@@ -11,6 +12,7 @@ export default function appMain(props) {
       <Features />
       <Tours tours={props.tours}/>
       <Stories stories={props.stories}/>
+      <Booking />
     </main>
   );
 }
