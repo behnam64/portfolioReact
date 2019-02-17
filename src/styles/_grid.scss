@@ -9,4 +9,8 @@
   @include clearfix;
 
   @include grid(12);
+
+  @include respond(tab-port) {
+    max-width: 50rem;
+  }
 }
